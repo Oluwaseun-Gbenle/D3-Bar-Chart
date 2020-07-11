@@ -1,0 +1,26 @@
+body{
+  background-color:grey;
+  display:flex;
+  justify-content:center;
+}
+#container{
+ padding-left:120px;
+ background-color:#eeeeee;
+ -webkit-box-shadow:4px 6px 15px 1px #2a2828;
+ -moz-box-shadow:4px 6px 15px 1px #2a2828;
+  box-shadow:4px 6px 15px 1px #2a2828;
+  width:80%;
+  padding-top:30px;
+}
+
+#text{
+   transform: rotate(-90deg);
+  float:left;
+   position:relative;
+  top:280px;
+  font-family:Arial;
+}
+
+.bar:hover {
+    fill: #eeeeee;
+  }
